@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__discount">
+            <div class="discount__container">
+                <p class="discount__content">
+                    Sign up and get 20% off to your first order.
+                    <a href="#" class="discount--link" >Sign Up Now</a> 
+                </p>
+                <p class="discount__content_sign">
+                    &#10005
+                </p>
+            </div>
+        </div>
+        <div class="header__nav">
+            <div class="header__logo">
+                <img src="./Images/menu.svg" alt="menu" class="menu">
+                <h1>
+                    <a href="index.html">
+                        shop.co
+                    </a>
+                </h1>
+            </div>
+            <div class="nav__container">
+                <nav class="nav__content">
+                    <ul class="nav__list">
+                        <li class="nav--item">
+                            <select class="nav--options" name="shop">
+                                <option value="shop">Shop</option>
+                                <option value="buy">Buy</option>
+                                <option value="return">Return</option>
+                            </select>
+                        </li>
+                        <li class="nav--item">
+                            <a href="#" class="nav--link">On Sale</a>
+                        </li>
+                        <li class="nav--item">
+                            <a href="#" class="nav--link">New Arrivals</a>
+                        </li>
+                        <li class="nav--item">
+                            <a href="#" class="nav--link">Brands</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav__search">              
+                    <input type="search" name="search" class="search--input" placeholder="Search for products...">
+                </div>
+                <div class="nav__profile">
+                    <img src="./Images/search-mobile.svg" alt="search" class="mobile--search">
+                    <img src="./Images/cart.svg" alt="cart">
+                    <img src="./Images/profile.svg" alt="profile">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="product">
+        <div class="section__line"></div>
+        <div class="product__container cart__container">
+            <div class="product__navigation">
+                <div class="product__navigation--part">
+                    <p>Home</p>
+                    <img src="./Images/arrow.svg">
+                </div>
+                <p  class="product--shop">Shop</p>
+            </div>
+        </div>
+        <div class="cart__container">
+            <h3 class="cart__title">Your Cart</h3>
+        </div>
+        <div class="cart__container__box"> 
+            <p>Your cart is empty</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__container">
+          <div class="customers_content">
+              <div class="customers__offers">
+                <div class="offers__container">
+                  <h3 class="offers__title">
+                    stay upto date about our latest offers
+                  </h3>
+                  <form class="offers__input">
+                    <input
+                      type="emal"
+                      name="email"
+                      class="offers__email"
+                      placeholder="Enter your email address"
+                    />
+                    <button type="submit" class="offers__btn">Subscribe to Newsletter</button>
+                  </form>
+                </div>
+              </div>
+          </div>
+  
+          <div class="footer__content">
+              
+            <div class="content__about">
+              <h2 class="content__title">Shop.co</h2>
+              <p class="content__text">
+                We have clothes that suits your style and which you’re proud to
+                wear. From women to men.
+              </p>
+              <div class="content__photos">
+                <div class="content__photos__box">
+                  <a href="" target="blank">
+                    <img src="./Images/twiter.svg" alt="twiter" />
+                  </a>
+                </div>
+                <div class="content__photos__box facebook">
+                  <a href="" target="blank">
+                    <img src="./Images/facebook.svg" alt="facebook" />
+                  </a>
+                </div>
+                <div class="content__photos__box">
+                  <a href="" target="blank">
+                    <img src="./Images/instagram.svg" alt="instagram" />
+                  </a>
+                </div>
+                <div class="content__photos__box">
+                  <a href="" target="blank">
+                    <img src="./Images/git.svg" alt="git" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__list">
+              <div class="footer__list_item">
+                <h5 class="footer__list_item_title">Company</h5>
+                <div class="footer__list_item_content">
+                  <p class="footer_list_item_text">Help</p>
+                  <p class="footer_list_item_text">Features</p>
+                  <p class="footer_list_item_text">Works</p>
+                  <p class="footer_list_item_text">Career</p>
+                </div>
+              </div>
+              <div class="footer__list_item">
+                <h5 class="footer__list_item_title">Help</h5>
+                <div class="footer__list_item_content">
+                  <p class="footer_list_item_text">Customer Support</p>
+                  <p class="footer_list_item_text">Delivery Details/p>
+                  <p class="footer_list_item_text">Terms &#38; Conditions </p>
+                  <p class="footer_list_item_text">Privacy Policy</p>
+                </div>
+              </div>
+              <div class="footer__list_item">
+                <h5 class="footer__list_item_title">FAQ</h5>
+                <div class="footer__list_item_content">
+                  <p class="footer_list_item_text">Account</p>
+                  <p class="footer_list_item_text">Manage Deliveries</p>
+                  <p class="footer_list_item_text">Orders</p>
+                  <p class="footer_list_item_text">Payments</p>
+                </div>
+              </div>
+              <div class="footer__list_item">
+                <h5 class="footer__list_item_title">Resources</h5>
+                <div class="footer__list_item_content">
+                  <p class="footer_list_item_text">Free eBooks</p>
+                  <p class="footer_list_item_text">Development Tutorial</p>
+                  <p class="footer_list_item_text">How to - Blog</p>
+                  <p class="footer_list_item_text">Youtubw Playlist</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section__line footer_line"></div>
+  
+          <div class="footer_cards">
+            <div class="footer__terms">
+              <p>Shop.co © 2000-2023, All Rights Reserved</p>
+            </div>
+            <div class="footer_cards_images">
+              <div class="footer_cards_images_item">
+                <img src="./Images/Visa.svg" />
+              </div>
+              <div class="footer_cards_images_item">
+                <img src="./Images/Mastercard.svg" />
+              </div>
+              <div class="footer_cards_images_item">
+                <img src="./Images/ Pay.svg" />
+              </div>
+              <div class="footer_cards_images_item">
+                <img src="Images/G Pay.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    
+</body>
+</html>
