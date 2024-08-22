@@ -297,7 +297,7 @@ h2 {
 }
 .arrival__content__title {
   max-width: 422px;
-  margin: 68px auto 0px auto;
+  margin: 50px auto 55px auto;
   align-items: center;
   text-align: center;
   font-size: 48px;
@@ -508,6 +508,9 @@ h2 {
   font-size: 40px;
   line-height: 57.6px;
   color: var(--black);
+  /* margin-top: 80px; */
+}
+.customers__mainttitle {
   margin-top: 80px;
 }
 .customers__arrow {
@@ -1121,6 +1124,9 @@ footer {
   gap: 10px;
   align-items: center;
 }
+.details__content__title {
+  max-width: 580px;
+}
 .description--set {
   padding: 16px 20px;
   background-color: var(--grey);
@@ -1404,6 +1410,9 @@ footer {
   }
   .style {
     margin: 15px;
+  }
+  .cart__title {
+    text-align: center;
   }
 }
 @media screen and (max-width: 1000px) {
